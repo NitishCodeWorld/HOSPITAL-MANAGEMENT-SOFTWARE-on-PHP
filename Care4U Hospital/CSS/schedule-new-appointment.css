@@ -1,0 +1,124 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#new-appointment-background{
+    background-color: rgb(26, 170, 115);
+}
+
+.page{
+    margin: 0px 100px;
+}
+.find-appointment-page-header {
+    height: 70px;
+    background-color: #1C82AD;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+.find-appointment-page-header h1 {
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 150px;
+    color: #fff;
+}
+
+
+.find-an-appointment-headline{
+    margin-top: 70px;
+    padding: 30px 0px 10px 0px;
+    text-align: center;
+    background-color: rgb(240, 255, 247);
+}
+.find-an-appointment-headline h4 {
+    color: rgb(26, 170, 115);
+}
+
+.departments{
+    height: 200px;
+    background-color: rgb(200, 243, 243);
+}
+.departments .card{
+    height: 160px;
+    width: 80%;
+    background-color: azure;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.departments .card .card-left{
+    height: inherit;
+    width: 90%;
+    background-color: yellow;
+    
+}
+.departments .card .card-right{
+    height: inherit;
+    width: 10%;
+    background-color: #1C82AD;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  MEDIA  */
+@media (max-width: 767px){
+    .container-fluid {
+        background-color: transparent;
+    }
+    .find-appointment-page-header {
+        height: 50px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0) 0px 3px 6px;
+    }
+    .find-appointment-page-header h1 {
+        font-size: 25px;
+        margin-left: 60px;
+    }
+    .find-an-appointment-headline {
+        margin: 50px 0px 0px 0px;
+        background-color: #1C82AD;
+        border-bottom-left-radius: 100% 50%;
+        border-bottom-right-radius: 100% 50%;
+        height: 150px;
+        position: relative;
+        z-index: 0;
+        color: #fff;
+    }
+    .find-an-appointment-headline h4 {
+        color: #fff;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1200px) {
+    .container-fluid {
+        background-color: transparent;
+    }
+    .find-appointment-page-header {
+        height: 100px;
+    }
+    .find-appointment-page-header h1 {
+        font-size: 38px;
+        margin-left: 70px;
+        margin-top: 20px;
+    }
+    .find-an-appointment-headline {
+        margin: 100px 0px 0px 0px;
+    }
+}
+
+@media (max-width: 1300px){
+    .page{
+        margin: 0px 0px;
+    }
+}

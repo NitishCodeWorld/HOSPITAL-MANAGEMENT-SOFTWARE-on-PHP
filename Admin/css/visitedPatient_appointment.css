@@ -1,0 +1,19 @@
+.patient-info{
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    margin: 50px 0px;
+    padding: 0px 20px;
+    background-color: #fff;
+}
+
+.patient-info form{
+    border: 1px solid rgba(128, 128, 128, 0.281);
+    border-radius: 5px;
+    display: inline-block;
+    padding: 15px;
+    margin: 15px 0px;
+}
+
+.patient-info .table-responsive .doctorCalender{
+    color: rgb(26, 170, 115);
+}

@@ -1,0 +1,89 @@
+
+.ambulance-information{
+    height: auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin: 20px auto;
+    background-color: #fff;
+}
+.ambulance-information h2{
+    color: rgb(26, 170, 115);
+}
+.ambulance-information .ambulance-booking-detail table tr td{
+    border-top: none;
+    padding: 0px;
+    font-size: 13px;
+    padding: 3px 50px;
+}
+.ambulance-information .ambulance-booking-detail .table-head{
+    font-size: 16px;
+}
+.ambulance-information .ambulance-booking-detail table tr td input[type="text"], input[type="password"]{
+    height: 35px;
+    width: 300px;
+    outline: none;
+    border: 0.1px solid #ccc;
+}
+.ambulance-information .ambulance-booking-detail table tr input[type="text"]:focus{
+    outline: 2px solid lightblue;
+}
+#name-field{
+    border-radius: 4px;
+}
+.ambulance-information .ambulance-booking-detail span{
+    background-color: #ddd;
+    padding: 8px;
+    border: 0.1px solid #ccc;
+    border-right: none;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.ambulance-information .ambulance-booking-detail .table-responsive .mobile-no-text{
+    width: 260px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+#send-btn{
+    display: inline-block;
+    color: #fff;
+    background-color: rgb(26, 170, 115);
+    padding: 5px 7px;
+    border-radius: 3px;
+    border: none;
+}
+#send-btn:hover{
+    background-color: rgb(22, 138, 93);
+}
+#mobile-verification{
+    display: none;
+}
+#password-field{
+    border-radius: 4px;
+}
+.ambulance-information .ambulance-booking-detail a{
+    display: inline-block;
+    color: #fff;
+    background-color: rgb(26, 170, 115);
+    padding: 5px 7px;
+    border-radius: 3px;
+}
+.ambulance-information .ambulance-booking-detail a:hover{
+    text-decoration: none;
+    background-color: rgb(22, 138, 93);
+}
+
+#location-field{
+    border-radius: 4px;
+}
+
+#book-ambulance, #booked-ambulance{
+    font-size: 15px;
+    background-color: #0081C9;
+    padding: 5px 135px;
+    text-align: center;
+}
+#booked-ambulance{
+    padding: 5px 125px;
+}
+#book-ambulance:hover, #booked-ambulance:hover{
+    background-color: #045f91;
+}

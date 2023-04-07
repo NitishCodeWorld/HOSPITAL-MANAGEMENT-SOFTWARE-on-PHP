@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+form{
+    margin: auto;
+}
+.patient-detail{
+    height: auto;
+    width: auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: #fff;
+    padding: 50px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+.patient-detail .patient-image{ 
+    width: 15%;
+    height: 100%;
+    float: left;
+    padding: 5px;
+}
+.patient-detail .patient-image img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.patient-full-info{
+    width: 85%;
+    height: auto;
+    float: left;
+    padding: 0px 10px;
+}
+.patient-full-info table th{
+    border-top: none;
+    color: blue;
+}
+.patient-full-info table tr td{
+    border-top: none;
+    width: 250px;
+}

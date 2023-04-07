@@ -1,0 +1,55 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.patient-info{
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    margin: 50px 0px;
+    padding: 30px 20px;
+    background-color: #fff;
+}
+.patient-info h2{
+    font-weight: 900;
+    color: rgb(26, 170, 115);
+}
+.patient-info .table-responsive{
+    padding-top: 20px;
+    width: 340px;
+}
+.patient-info table tr td{
+    font-size: 14px;
+    border: none;
+    padding: 3px 5px;
+}
+.patient-info input[type="text"], input[type="date"], input[type="email"], input[type="password"], select{
+    width: 320px;
+    height: 30px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 5px;
+    outline: none;
+}
+.patient-info input:focus{
+    outline: 2px solid lightblue;
+}
+
+.patient-info .submit-link{
+    border: none;
+    margin: 20px 0px;
+    display: block;
+    text-align: center;
+}
+.patient-info .submit-link a{
+    color: #fff;
+    background-color: rgb(26, 170, 115);
+    padding: 5px 50px;
+    border-radius: 5px;
+}
+.patient-info .submit-link a:hover{
+    text-decoration: none;
+    background-color: rgb(11, 94, 62);
+}

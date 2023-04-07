@@ -1,0 +1,36 @@
+
+.bg-doc-image .log-in-text form {
+    position: absolute;
+    z-index: 1;
+    top: 100px;
+    left: 500px;
+    height: auto;
+    padding: 25px;
+    border-left: 2px solid rgb(26, 170, 115);
+    border-radius: 20% 0px 20% 0px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #fff;
+}
+.bg-doc-image .log-in-text form h2 {
+    margin-bottom: 40px;
+    font-family: 'Times New Roman', Times, serif;  
+}
+.bg-doc-image .log-in-text form input {
+    margin-bottom: 30px;
+}
+
+
+.bg-doc-image .log-in-text-admin {
+    position: absolute;
+    z-index: 1;
+    height: auto;
+    top: 100px;
+    right: 100px;
+    background-color: #fff;
+}
+.bg-doc-image .log-in-text-admin table tr th, td{
+    font-size: 14px;
+}
+.bg-doc-image .log-in-text-admin table tr td{
+    padding-bottom: 7px;
+}

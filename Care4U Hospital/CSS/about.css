@@ -1,0 +1,126 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+    
+.page-img{
+    padding-top: 110px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.page-img img{
+    filter: brightness(80%);
+}
+.page-img .img-paragraph{
+    position: absolute;
+    max-width: 58%;
+    bottom: 15vh;
+    left: 85px;
+    border: none;
+    background-color: rgba(58, 55, 55, 0.452);
+    opacity: 1;
+    padding: 0px 18px;
+}
+.page-img .img-paragraph h1{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.page-img .img-paragraph p{
+    color: white;
+    font-size: 19px;
+    letter-spacing: 0.2px;
+}
+
+
+.home-about{
+    padding-left: 80px;
+    margin-bottom: 50px;
+}
+.home-about i{
+    color: #028759;
+}
+
+
+.overview-left-para{
+    padding-left: 85px;
+    font-size: 18px;
+}
+.overview-left-links{
+    columns: 2;
+    margin-left: 85px;
+    border: 0.1px solid #03b0cf31;
+    border-top: none;
+    padding: 20px;
+}
+.overview-left-links ul{
+    font-size: 14px;
+    list-style-type: none;
+    padding-left: 10px;
+}
+.overview-left-links ul a{
+    color: #027b91;
+    border-bottom: 0.1px solid #03b1cf;
+}
+.overview-left-links ul li{
+    padding-bottom: 8px;
+}
+.overview-left-links ul li i{
+    color: #03b9da;
+    font-size: 8px;
+    padding-right: 10px;
+}
+.overview-left-links ul li a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.overview-right-links{
+    height: 470px;
+    width: 70%;
+    background-color: rgb(238, 238, 238);
+    margin-left: 50px;
+    padding: 38px;
+    margin-bottom: 50px;
+}
+.overview-right-links p{
+    font-size: 14px;
+    font-weight: 500;
+}
+.overview-right-links h5{
+    color: #028759;
+    font-weight: 700;
+    border-bottom: 3px solid #028759;
+    padding-bottom: 15px;
+}
+.overview-right-links a{
+    display: block;
+    font-size: 14px;
+    color: black;
+    padding-left: 18px;
+    padding-bottom: 8px;
+}
+
+.query{
+    padding: 50px 100px 0px;
+    height: 230px;
+    background-color: rgb(238, 238, 238);
+}
+.query i{
+    font-size: 3rem;
+    color: rgb(61, 60, 60);
+    padding-bottom: 20px;
+}
+.query p{
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(61, 60, 60);
+}
+.query a:hover{
+    text-decoration: none;
+}
+.query i:hover{
+    font-size: 3.5rem;
+    padding-bottom: 12px;
+}

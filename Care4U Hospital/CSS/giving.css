@@ -1,0 +1,456 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.giving-top-header{
+    height: 31px;
+    background-color: rgb(26, 170, 115);
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.giving-top-header .giving-top-info-links{
+    float: right;
+    height: inherit;
+    padding-right: 100px;
+    padding-top: 4px;
+}
+.giving-top-header .giving-top-info-links span{
+    padding: 0px 10px;
+}
+.giving-top-header .giving-top-info-links a{
+    color: #fff;
+}
+.giving-top-header .giving-top-info-links a:hover{
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+}
+
+
+.giving-logo-line{
+    height: 98px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.342);
+}
+.giving-logo-line .giving-logo{
+    height: 98px;
+    line-height: 2.5;
+    padding-left: 60px;
+    display: inline;
+}
+.giving-logo-line .giving-logo img{
+    padding-bottom: 30px;
+}
+#hospital-name{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    border-right: 1px solid rgba(128, 128, 128, 0.342);
+    padding-right: 10px;
+}
+#hospital-name a{
+    color: black;
+}
+#hospital-name a:hover{
+    text-decoration: none;
+}
+#giving-text{
+    font-size: 22px;
+    font-weight: 500;
+    padding-left: 10px;
+}
+.giving-logo-line .giving-icons{
+    display: inline;
+}
+.giving-logo-line .giving-icons span{
+    float: right;
+    padding-top: 25px;
+    padding-right: 110px;
+}
+.giving-logo-line .giving-icons span i{
+    font-size: 30px;
+    font-weight: 100;
+    padding: 5px;
+}
+.giving-logo-line .giving-icons span a{
+    color: rgb(66, 65, 65);
+}
+
+
+.giving--ways-to-give{
+    height: 90px;
+}
+.giving--ways-to-give .ways-to-give-links{
+    padding-top: 30px;
+    padding-left: 60px;
+}
+.giving--ways-to-give .ways-to-give-links span{
+    font-size: 18px;
+    font-weight: 900;
+    padding: 0px 15px;
+}
+.giving--ways-to-give .ways-to-give-links span a{
+    color: rgb(26, 170, 115);
+}
+.giving--ways-to-give .ways-to-give-links span a:hover{
+    text-decoration: none;
+    color: rgb(16, 92, 63);
+}
+.giving--ways-to-give .ways-to-give-dropdown{
+    display: none;
+    padding: 10px 0px 10px 30px;
+}
+.giving--ways-to-give .ways-to-give-dropdown span{
+    color: rgb(20, 131, 88);
+    font-weight: 500;
+}
+.giving--ways-to-give .ways-to-give-dropdown span i{
+    color: black;
+    font-size: 20px;
+    font-weight: 100;
+}
+.giving--ways-to-give .ways-to-give-dropdown .ways-to-give-dropdown-links{
+    padding-top: 20px;
+}
+.giving--ways-to-give .ways-to-give-dropdown .ways-to-give-dropdown-links p{
+    margin-bottom: 0px;
+    padding: 5px 0px;
+    font-weight: 900;
+}
+.giving--ways-to-give .ways-to-give-dropdown .ways-to-give-dropdown-links p a{
+    color: rgb(26, 170, 115);
+}
+.giving--ways-to-give .ways-to-give-dropdown .ways-to-give-dropdown-links p a:hover{
+    text-decoration: none;
+    color: rgb(16, 92, 63);
+}
+
+.giving--front-image-info{
+    margin-bottom: 30px;
+}
+.giving--front-image-info img{
+    filter: brightness(80%);
+    position: relative;
+    border-top: 3px solid rgba(128, 128, 128, 0.308);
+    border-bottom: 3px solid rgba(26, 170, 115, 0.308);
+}
+.giving--front-image-info .frontImage-top-info{
+    position: absolute;
+    z-index: 1;
+    bottom: 100px;
+    left: 80px;
+    right: 80px;
+    background-color: rgba(51, 49, 49, 0.342);
+    padding: 20px;
+    padding-right: 10px;
+}
+.giving--front-image-info .frontImage-top-info h1{
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.giving--front-image-info .frontImage-top-info p{
+    font-size: 18px;
+    color: #fff;
+}
+.giving--front-image-info .frontImage-top-info span{
+    padding-left: 10px;
+}
+.giving--front-image-info .frontImage-top-info a{
+    display: inline-block;
+    color: #fff;
+    background-color: rgb(20, 131, 88);
+    padding: 10px 15px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+.giving--front-image-info .frontImage-top-info a:hover{
+    color: #fff;
+    background-color: rgb(16, 92, 63);
+}
+
+
+.giving--total-care{
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.192);
+    padding: 100px 10px;
+    margin-bottom: 20px;
+}
+.giving--total-care .individual-care{
+    height: 600px;
+    width: auto;
+    background-color: #fff;
+    display: inline-block;
+    margin: 30px 10px 0px 100px;
+}
+.giving--total-care .individual-care .individual-care-info{
+    padding: 30px 40px 60px;
+}
+.giving--total-care .individual-care .individual-care-info p{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Poppins";
+    color: rgb(85, 84, 84);
+}
+.giving--total-care .individual-care .individual-care-info h2{
+    margin-bottom: 20px;
+}
+.giving--total-care .individual-care .individual-care-info a{
+    font-size: 26px;
+    font-weight: 200;
+    font-family: "Poppins";
+    text-decoration: none;
+    color: rgb(26, 170, 115);
+}
+.giving--total-care .individual-care .individual-care-info a:hover{
+    border-bottom: 0.1px solid rgb(26, 170, 115);
+}
+.giving--total-care h3{
+    border-bottom: 2px solid black;
+    display: inline-block;
+    padding-top: 10px;
+    line-height: 2.5;
+}
+.giving--total-care .individual-care-right-top{
+    background-color: rgb(26, 170, 115);
+    margin: 20px 100px 10px 0px;
+    border-radius: 5px;
+    padding: 60px 50px;
+}
+.giving--total-care .individual-care-right-top span{
+    color: #fff;
+    font-family: "poppins";
+    font-size: 14px;
+    font-weight: 400;
+}
+.giving--total-care .individual-care-right-top a{
+    font-size: 27px;
+    font-weight: 300;
+    font-family: "Poppins";
+    text-decoration: none;
+    color: #fff;
+}
+.giving--total-care .individual-care-right-top h2{
+    margin: 15px 0px;
+}
+.giving--total-care .individual-care-right-top p{
+    font-family: "poppins";
+    color: #fff;
+    letter-spacing: 0.2px;
+}
+.giving--total-care .individual-care-right{
+    height: auto;
+    width: auto;
+    background-color: #fff;
+    display: inline-block;
+    margin: 30px 100px 0px 10px;
+}
+.giving--total-care .individual-care-right .individual-care-info{
+    padding: 30px 40px 70px;
+}
+.giving--total-care .individual-care-right .individual-care-info p{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Poppins";
+    color: rgb(85, 84, 84);
+    margin-bottom: 0px;
+}
+.giving--total-care .individual-care-right .individual-care-info h2{
+    margin-bottom: 10px;
+}
+.giving--total-care .individual-care-right .individual-care-info a{
+    font-size: 26px;
+    font-weight: 200;
+    font-family: "Poppins";
+    text-decoration: none;
+    color: rgb(26, 170, 115);
+}
+.giving--total-care .individual-care-right .individual-care-info a:hover{
+    border-bottom: 0.1px solid rgb(26, 170, 115);
+}
+
+
+.giving--some-other-detail{
+    padding: 50px 20px 10px;
+    background-color: #fff;
+}
+.giving--some-other-detail .some-text{
+    text-align: center;
+}
+.giving--some-other-detail .some-text h1{
+    font-weight: 900;
+    color: rgb(20, 131, 88);
+    margin-bottom: 20px;
+}
+.giving--some-other-detail .some-text p{
+    font-size: 18px;
+}
+
+
+.giving--bottom-image-nd-links{
+    padding: 20px 15px;
+}
+.giving--bottom-image-nd-links .individual-image-nd-link p{
+    padding-top: 10px;
+    margin-bottom: 5px;
+    font-size: 13px;
+    font-weight: 600;
+    display: inline-block;
+}
+.giving--bottom-image-nd-links .individual-image-nd-link p a{
+    color: rgb(16, 92, 63);
+    text-decoration: none;
+}
+.giving--bottom-image-nd-links .individual-image-nd-link p a:hover{
+    padding-right: 10px;
+}
+.giving--bottom-image-nd-links .individual-image-nd-link span{
+    font-size: 17px;
+    font-weight: 700;
+    display: inline-block;
+}
+.giving--bottom-image-nd-links .individual-image-nd-link span a{
+    color: rgb(26, 170, 115);
+    text-decoration: none;
+}
+.giving--bottom-image-nd-links .individual-image-nd-link span a:hover{
+    color: rgb(16, 92, 63);
+    padding-right: 10px;
+}
+.giving--bottom-image-nd-links .individual-image-nd-link i{
+    color: rgb(26, 170, 115);
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA */
+@media (max-width: 991px){
+    .giving--front-image-info .frontImage-top-info{
+        position: static;
+        background-color: transparent;
+        padding-left: 10px;
+        padding-right: 25px;
+    }
+    .giving--front-image-info .frontImage-top-info h1{
+        position: absolute;
+        bottom: 250px;
+        font-size: 30px;
+    }
+    .giving--front-image-info .frontImage-top-info p{
+        display: none;
+    }
+    .giving--front-image-info .frontImage-top-info span{
+        text-align: center;
+    }
+    .giving--front-image-info .frontImage-top-info span a{
+        width: 100%;
+    }
+
+
+    .giving--total-care .individual-care{
+        height: 700px;
+        width: 95%;
+    }
+    .giving--total-care .individual-care-right-top{
+        width: 95%;
+    }
+    .giving--total-care .individual-care-right{
+        width: 95%;
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 1200px){
+    .giving-top-header{
+        display: none;
+    }
+    .giving-logo-line{
+        height: 70px;
+        border-top: 4px solid rgb(26, 170, 115);
+        border-bottom: 1px solid rgba(128, 128, 128, 0.342);
+    }
+    .giving-logo-line .giving-logo{
+        padding-left: 25px;
+    }
+    .giving-logo-line .giving-logo img{
+        padding-bottom: 45px;
+        padding-top: 15px;
+    }
+    #hospital-name{
+        font-size: 30px;
+    }
+    #giving-text{
+        font-size: 18px;
+    }
+
+
+    .giving-logo-line .giving-icons span{
+        padding-top: 20px;
+        padding-right: 6px;
+    }
+    .giving-logo-line .giving-icons span i{
+        font-size: 25px;
+    }
+
+
+    .giving--ways-to-give{
+        height: 50px;
+    }
+    .giving--ways-to-give .ways-to-give-links{
+        display: none;
+    }
+    .giving--ways-to-give .ways-to-give-dropdown{
+        display: block;
+    }
+    .giving--ways-to-give .ways-to-give-dropdown .ways-to-give-dropdown-links{
+        display: none;
+    }
+
+
+    .giving--front-image-info .frontImage-top-info{
+        left: 40px;
+        right: 40px;
+    }
+
+
+    .giving--total-care{
+        padding: 0px 10px;
+    }
+    .giving--total-care .individual-care{
+        margin-left: 20px;
+    }
+    .giving--total-care .individual-care-right-top{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .giving--total-care .individual-care-right{
+        margin-right: 20px;
+    }
+    .giving--total-care h3{
+        font-size: 22px;
+        font-weight: 900;
+        margin-left: 20px;
+        color: rgb(59, 59, 59);
+    }
+
+
+    .giving--some-other-detail .some-text h1{
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 1200px){
+    .image-nd-links{
+        padding: 0px 80px;
+        margin: 20px 0px;
+    }
+}

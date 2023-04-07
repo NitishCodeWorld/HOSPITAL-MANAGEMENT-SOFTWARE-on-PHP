@@ -1,0 +1,8 @@
+<i class="fal fa-calendar-alt"></i> Modnay [13:30 - 16:25]<br>
+<i class="fal fa-calendar-alt"></i> Monday [17:30 - 19:00]<br>
+<i class="fal fa-calendar-alt"></i> Wednesday [08:00 - 11:00]<br>
+<i class="fal fa-calendar-alt"></i> Wednesday [12:15 - 13:45]<br>
+<i class="fal fa-calendar-alt"></i> Wednesday [16:30 - 19:00]<br>
+<i class="fal fa-calendar-alt"></i> Thursday [10:00 - 13:00]<br>
+<i class="fal fa-calendar-alt"></i> Friday [09:15 - 11:15]<br>
+<i class="fal fa-calendar-alt"></i> Saturday [11:00 - 16:00]<br>

@@ -1,0 +1,173 @@
+.footer{
+    background-color: rgb(24, 24, 24);
+    font-family: "Calibre",sans-serif;
+}
+.footer a{
+    color: #fff;
+}
+.footer .footer-top{
+    padding-top: 100px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #222;
+    margin: 0px 50px;
+}
+.footer .footer--top-left{
+    border-right: 1px solid #222;
+}
+
+                    /* Below styling is of FOOTER (QUICK-LINKS) */
+
+.footer .quick-links{
+    margin-bottom: 20px;
+}
+.footer .quick-links h6{
+    font-size: 15px;
+    font-weight: 600;
+    color: #028759;
+    letter-spacing: 1px;
+}
+.footer .quick-links ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    columns: 2;
+}
+.footer .quick-links ul li{
+    font-size: 13px;
+    padding-bottom: 13px;
+}
+
+                    /* Below styling is of FOOTER (EMPLOYEE PORTAL) */
+
+.footer .employee-portal h6{
+    font-size: 15px;
+    font-weight: 600;
+    color: #028759;
+    letter-spacing: 1px;
+}
+.footer .employee-portal ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    columns: 2;
+}
+.footer .employee-portal ul li{
+    font-size: 13px;
+    padding-bottom: 13px;
+} 
+
+                    /* Below styling is of FOOTER (CONTACTS) */
+
+.footer .contacts{
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+.footer .contacts h6{
+    font-size: 15px;
+    font-weight: 600;
+    color: #028759;
+    letter-spacing: 1px;
+}
+.footer .contacts p{
+    border: 1px solid #fff;
+    border-radius: 5px;
+    max-width: 259px;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+.footer .contacts p a{
+    padding: 15px 40px;
+    display: block;
+}
+.footer .contacts p a:hover{
+    text-decoration: none;
+    background-color: #fff;
+    color: #000;
+}
+.footer .contacts ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    columns: 2;
+}
+.footer .contacts ul li{
+    font-size: 14px;
+    padding-bottom: 13px;
+}
+.footer .social{
+    padding-left: 20px;
+}
+.footer .social p{
+    display: inline-block;
+    margin-bottom: 0px;
+}
+.footer .social p a{
+    display: block;
+    font-size: 20px;
+    font-weight: 100;
+    border: 2px solid #fff;
+    border-radius: 25px;
+}
+.footer .social p a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+                    /* FOOTER-BOTTOM-TAGLINE */
+
+.footer-bottom-name-nd-tagline{
+    color: #fff;
+    margin-top: 100px;
+    
+}
+.footer-bottom-name-nd-tagline .name{
+    display: inline-block;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+    border-right: 1px solid white;
+    padding-right: 10px;
+    margin-left: 20%;
+}
+.footer-bottom-name-nd-tagline .name h1{
+    font-size: 35px;
+    margin-bottom: 0px;
+}
+.footer-bottom-name-nd-tagline .tagline{
+    display: inline-block;
+    font-size: 20px;
+    padding: 0px 20px;
+    line-height: 1.2rem;
+}
+.footer-bottom-name-nd-tagline .badge{
+    max-width: 120px;
+}
+.footer-bottom-name-nd-tagline .badge p{
+    max-width: 113px;
+}
+                    /* FOOTER-BOTTOM-DISCLAIMER */
+
+.footer-bottom-disclaimer{
+    margin-left: 20px;
+}
+.footer-bottom-disclaimer p{
+    font-size: 13px;
+    padding: 0px 10px;
+    font-weight: 700;
+}
+                    /* FOOTER-BOTTOM-COPYRIGHT */
+
+.footer-bottom-copyright{
+    color: #fff;
+    margin-top: 10px;
+    padding-bottom: 50px;
+}
+.footer-bottom-copyright p{
+    font-size: 12px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    text-align: center;
+    padding: 0px 230px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,8 @@
+<i class="fal fa-calendar-alt"></i> Monday [10:15 - 13:15]<br>
+<i class="fal fa-calendar-alt"></i> Tuesday [08:05 - 16:00]<br>
+<i class="fal fa-calendar-alt"></i> Wednesday [08:30 - 13:00]<br>
+<i class="fal fa-calendar-alt"></i> Thursday [10:00 - 12:00]<br>
+<i class="fal fa-calendar-alt"></i> Friday [11:00 - 16:00]<br>
+<i class="fal fa-calendar-alt"></i> Friday [17:30 - 19:25]<br>
+<i class="fal fa-calendar-alt"></i> Saturday [09:15 - 11:15]<br>
+<i class="fal fa-calendar-alt"></i> Saturday [17:30 - 19:00]<br>

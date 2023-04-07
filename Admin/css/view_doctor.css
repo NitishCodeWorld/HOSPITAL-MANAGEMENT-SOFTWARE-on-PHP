@@ -1,0 +1,68 @@
+.search-doctor-input-box{
+    float: right;
+    background-color: #fff;
+    margin-top: 10px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    border-radius: 5px;
+}
+.search-doctor-input-box input{
+    width: 250px;
+    border: none;
+    height: 31px;
+    border-radius: 5px 0px 0px 5px;
+    outline: none;
+    padding: 0px 5px;
+}
+.search-doctor-input-box input[type="text"]:focus{
+    outline: 2px solid lightblue;
+    border-radius: 2px;
+}
+.search-doctor-input-box i{
+    width: 30px;
+    height: 32px;
+    padding-left: 6px;
+    padding-top: 5px;
+    font-weight: 100;
+    font-size: 20px;
+    background-color: rgba(128, 128, 128, 0.199);
+    border-radius: 0px 2px 2px 0px;
+}
+.search-doctor-input-box i:hover{
+    background-color: rgba(128, 128, 128, 0.555);
+}
+
+
+.card2{
+    height: 350px;
+    background-color: #fff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+.card2 img{
+    border-radius: 5px 5px 0px 0px;
+}
+.card2 h6{
+    text-align: center;
+    padding: 20px 10px 0px 20px;
+}
+.card2 span{
+    display: block;
+    text-align: center;
+    margin-top: -5px;
+}
+.card2 .card2-btn{
+    height: 100px;
+}
+.card2 .card-buttom{
+    height: 50px;
+    background-color: rgb(26, 170, 115);
+    display: block;
+    text-align: center;
+    border-radius: 0px 0px 5px 5px;
+}
+.card2 .card-buttom a{
+    color: #fff;
+    text-decoration: none;
+    line-height: 45px;
+}

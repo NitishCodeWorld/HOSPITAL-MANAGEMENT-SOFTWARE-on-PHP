@@ -1,0 +1,72 @@
+.search-nurse-input-box{
+    float: right;
+    background-color: #fff;
+    margin-top: 10px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    border-radius: 5px;
+}
+.search-nurse-input-box input{
+    width: 250px;
+    border: none;
+    height: 31px;
+    border-radius: 5px 0px 0px 5px;
+    outline: none;
+    padding: 0px 5px;
+}
+.search-nurse-input-box input[type="text"]:focus{
+    outline: 2px solid lightblue;
+    border-radius: 2px;
+}
+.search-nurse-input-box i{
+    width: 30px;
+    height: 32px;
+    padding-left: 6px;
+    padding-top: 5px;
+    font-weight: 100;
+    font-size: 20px;
+    background-color: rgba(128, 128, 128, 0.199);
+    border-radius: 0px 2px 2px 0px;
+}
+.search-nurse-input-box i:hover{
+    background-color: rgba(128, 128, 128, 0.555);
+}
+
+
+.card3{
+    height: 350px;
+    background-color: #fff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 5px;
+}
+.card3 .card3-top{
+    height: 180px;
+}
+.card3 .card3-top img{
+    border-radius: 5px 5px 0px 0px;
+}
+.card3 .card3-btn{
+    padding-top: 10px;
+    text-align: center;
+}
+.card3 .card3-btn h5{
+    padding: 10px 0px 5px;
+}
+.card3 .card3-btn p{
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.card3 .card3-btn span{
+    font-size: 14px;
+}
+.card3 .card3-bottom{
+    text-align: center;
+    background-color: rgb(26, 170, 115);
+    height: 50px;
+    margin-top: 13px;
+    padding-top: 12px;
+    border-radius: 0px 0px 5px 5px;
+}
+.card3 .card3-bottom a{
+    color: #fff;
+    text-decoration: none;
+}

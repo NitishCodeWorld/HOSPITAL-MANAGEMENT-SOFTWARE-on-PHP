@@ -1,0 +1,131 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#bg{
+    background-color: rgb(26, 170, 115);
+}
+.mychart-main-container{
+    height: 150vh;
+    background-color: #eee;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+/* HEADING START */
+.mychart-main-container .heading{
+    text-align: center;
+}
+.mychart-main-container .heading a{
+    color: #222;
+}
+.mychart-main-container .heading a:hover{
+    text-decoration: none;
+}
+.mychart-main-container .heading h1{
+    font-size: 4rem;
+    font-family: none;
+    margin-bottom: 0px;
+    line-height: 1;
+}
+.mychart-main-container .heading p{
+    color: #01c782;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.mychart-main-container .heading p span{
+    font-weight: 700;
+}
+/* HEADING END */
+
+/* BOX PARAGRAPH START */
+
+.mychart-main-container .box-paragraph{
+    background-color: rgb(233, 227, 227);
+    margin: 0px 20px;
+    padding: 15px 10px;
+    text-align: center;
+}
+.mychart-main-container .box-paragraph h5{
+    color: red;
+    margin-bottom: 0px;
+}
+/* BOX PARAGRAPH END */
+
+
+.user-benefit-info{
+    padding-top: 20px;
+}
+.user-benefit-info .half-side{
+    max-width: 390px;
+    height: 140px;
+}
+.user-benefit-info .half-side i{
+    font-size: 45px;
+}
+.user-benefit-info .half-side .half-side-detail p{
+    font-size: 14.5px;
+}
+.user-benefit-info .half-side i, h5{
+    color: rgb(26, 170, 115);
+}
+
+
+/* RIGHT PORTION */
+.right-portion{
+    padding-top: 140px;
+    height: 149.8vh;
+}
+.right-portion input{
+    width: 100%;
+    height: 35px;
+    margin-bottom: 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+.right-portion .btn-green{
+    display: block;
+    text-align: center;
+    background-color: rgb(26, 170, 115);
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 8px 0px;
+    border-radius: 5px;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+.right-portion .btn-green:hover{
+    text-decoration: none;
+    background-color: rgb(18, 134, 90);
+}
+.right-portion span{
+    font-size: 13px;
+}
+.right-portion .new-user{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 21px;
+    color: rgb(26, 170, 115);
+}
+.right-portion .btn-blue{
+    display: block;
+    text-align: center;
+    background-color: #0081B4;
+    padding: 8px 0px;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+/* RIGHT PORTION END */
+
+.mychart-main-container .img-nd-link{
+    font-size: 12px;
+    margin-top: 210px;
+}
+.mychart-main-container .img-nd-link a{
+    padding: 0px 5px;
+    color: #444;
+    margin-left: 2px;
+}
+

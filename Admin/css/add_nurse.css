@@ -1,0 +1,36 @@
+.add-nurse{
+    height: auto;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    padding-bottom: 20px;
+}
+.add-nurse h4{
+    height: 2.5rem;
+    padding-top: 5px;
+    margin-bottom: 15px;
+    background-color: #bbb;
+}
+.add-nurse table tr td{
+    border: none;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+}
+.add-nurse table tr td input[type="text"], input[type="date"], input[type="email"], input[type="file"]{
+    border-radius: 0px;
+    font-size: 14px;
+    width: 320px;
+}
+.add-nurse table tr td .form-control{
+    border-radius: 0px;
+    font-size: 14px;
+    width: 320px;
+}
+#chk-box-for--p-address{
+    display: inline;
+    font-size: 13px;
+}
+.add-nurse table tr td .qualification-box{
+    width: 227px!important;
+}

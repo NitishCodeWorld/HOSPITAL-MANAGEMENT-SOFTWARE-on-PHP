@@ -1,0 +1,687 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.univ--top-header1{
+    height: 50px;
+    background-color: #1a4b07;
+    display: none;
+}
+.univ--top-header1 p{
+    display: inline-block;
+    font-weight: 600;
+    line-height: 3;
+    margin-left: 80px;
+}
+.univ--top-header1 p a{
+    color: #fff;
+    text-decoration: none;
+}
+.univ--top-header1 p span{
+    padding-left: 20px;
+}
+.univ--top-header1 p span i{
+    font-size: 20px;
+}
+
+.univ--top-header2{
+    background-color: rgb(16, 92, 63);
+}
+.univ--top-header2 .univ--logo-tag{
+    padding-left: 30px;
+}
+.univ--top-header2 .univ--logo-tag p{
+    display: inline-block;
+    font-size: 22px;
+    padding-top: 10px;
+}
+.univ--top-header2 .univ--logo-tag p a{
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-weight: 100;
+}
+.univ--top-header2 .univ--logo-tag span{
+    padding: 20px;
+    border-left: 1px solid #fff;
+}
+.univ--top-header2 .univ--logo-tag span i{
+    font-size: 28px;
+    font-weight: 500;
+    color: #fff;
+}
+
+
+.univ--logo-row{
+    height: 70px;
+}
+.univ--logo-row .univ--logo{
+    display: inline-block;
+}
+.univ--logo-row .univ--logo h2{
+    padding-top: 15px;
+    margin-left: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(16, 92, 63);
+}
+
+
+.univ--logo-row .univ--search{
+    float: right;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+.univ--logo-row .univ--search span{
+    display: inline-block;
+    font-size: 16px;
+    padding-left: 20px;
+}
+#myCare4u{
+    background-color: rgb(238, 234, 234);
+    border-radius: 20px;
+    display: inline-block;
+}
+#myCare4u span{
+    padding: 5px 12px;
+    font-weight: 600;
+}
+#myCare4u i{
+    padding-left: 5px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.univ--logo-row .univ--search span a{
+    background-color: rgb(26, 170, 115);
+    color: #fff;
+    padding: 5px 8px;
+    border-radius: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.univ--logo-row .univ--search span a:hover{
+    background-color: rgb(16, 92, 63);
+}
+#myCare4u-options{
+    position: absolute;
+    z-index: 1;
+    background-color: rgb(238, 234, 234);
+    top: 20px;
+    right: 210px;
+    border-radius: 10px;
+    width: 200px;
+    display: none;
+}
+#myCare4u-options p{
+    padding: 10px 15px;
+    font-weight: 600;
+    border-bottom: 0.1px solid rgba(128, 128, 128, 0.116);
+}
+#myCare4u-options p i{
+    padding-left: 50px;
+}
+#myCare4u-options a{
+    display: inline-block;
+    padding: 8px 15px;
+    color: black;
+    text-decoration: none;
+}
+#myCare4u-options a:hover{
+    color: rgb(16, 92, 63);
+}
+
+
+.univ--top-nav-links{
+    height: 50px;
+    background-color: rgba(203, 231, 231, 0.384);
+    padding: 0px 70px;
+}
+.univ--top-nav-links .univ--nav{
+    display: inline-block;
+}
+.univ--top-nav-links .univ--nav p{
+    font-weight: 500;
+    font-size: 17px;
+    margin: 0px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.univ--top-nav-links .univ--nav p:hover{
+    color: rgb(26, 170, 115);
+}
+.univ--top-nav-links .univ--nav .univ--nav-hover{
+    position: absolute;
+    z-index: 1;
+    width: 300px;
+    top: 50px;
+    background-color: rgb(238, 234, 234);
+    padding: 15px 10px;
+    display: none;
+}
+#univ--nav-options{ 
+    left: 40px;
+}
+.univ--top-nav-links .univ--nav .univ--nav-hover p{
+    padding: 7px 10px;
+    display: block;
+}
+.univ--top-nav-links .univ--nav .univ--nav-hover p a{
+    display: inline;
+    color: rgb(51, 48, 48);
+    text-decoration: none;
+}
+.univ--top-nav-links .univ--nav .univ--nav-hover p a:hover{
+    color: rgb(26, 170, 115);
+}
+#admission-link a{
+    text-decoration: none;
+    color: rgb(51, 48, 48);
+}
+#admission-link a:hover{
+    color: rgb(26, 170, 115);
+}
+#univ--nav-options3{ 
+    right: 370px;
+}
+#univ--nav-options4{ 
+    right: 270px;
+}
+#univ--nav-options5{ 
+    right: 90px;
+}
+
+
+.univ--homePage-image-and-text{
+    position: relative;
+}
+.univ--homePage-image-and-text .univ--aboveImgText{
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(14, 13, 13, 0.822);
+    top: 100px;
+    left: 60px;
+    width: 600px;
+    padding: 40px 25px;
+    color: #fff;
+}
+.univ--homePage-image-and-text .univ--aboveImgText h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+#univ--para{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 20px;
+}.univ--homePage-image-and-text .univ--aboveImgText h1{
+    font-size: 45px;
+}
+.univ--homePage-image-and-text .univ--aboveImgText .first-line {
+    text-align: center;
+}
+.univ--homePage-image-and-text .univ--aboveImgText .sec-line {
+    text-align: center;
+}
+.univ--homePage-image-and-text .univ--aboveImgText .first-line p{
+    display: inline-block;
+}
+.univ--homePage-image-and-text .univ--aboveImgText .sec-line p{
+    display: inline-block;
+}
+.univ--homePage-image-and-text .univ--aboveImgText a{
+    display: inline-block;
+    text-align: center;
+    width: 250px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 2px;
+    padding: 10px 0px;
+}
+#backgd-green{
+    background-color: #009160;
+    color: #fff;
+    margin-right: 10px;
+}
+#backgd-yellow{
+    background-color: rgb(216, 216, 3);
+    color: #000;
+}
+#backgd-red{
+    background-color: #b25327;
+    color: #fff;
+    margin-right: 10px;
+}
+#backgd-blue{
+    background-color: #22cbe9;
+    color: #000;
+}
+
+
+
+.univ--find-program{
+    height: auto;
+    background-color: rgba(203, 231, 231, 0.384);
+    padding: 80px 0px;
+}
+.univ--find-program .find-program-search h1{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.univ--find-program div{
+    text-align: center;
+}
+.univ--find-program div input[type="search"]{
+    width: 800px;
+    height: 50px;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    outline: none;
+    border-radius: 3px 0px 0px 3px;
+}
+.univ--find-program div button{
+    height: 50px;
+    border: none;
+    background-color: #fff;
+    border-radius: 0px 3px 3px 0px;
+}
+.univ--find-program div button i{
+    font-size: 23px;
+    font-weight: 400;
+    color: rgb(26, 170, 115);
+    border-left: 1px solid rgba(119, 136, 153, 0.329);
+    padding: 5px 10px;
+}
+.univ--find-program .find-program-search .univ--different-search-by{
+    height: auto;
+    background-color: rgb(220, 245, 253);
+}
+
+.univ--find-program .univ--find-by-links{
+    margin: 30px 0px;
+}
+.univ--find-program .univ--find-by-links p{
+    margin-bottom: 5px;
+}
+.univ--find-program .univ--find-by-links p span{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+.univ--find-program .univ--find-by-links p i{
+    background-color: #fff;
+    padding: 20px 19px 19px;
+    border: 1px solid green;
+    
+
+}
+.univ--find-program .univ--find-by-links span i{
+    background-color: #fff;
+}
+
+#view-link1 span{
+    padding: 15px 0px;
+    width: 80%;
+}
+#view-link1 i{
+    color: green;
+}
+#view-link2 span{
+    padding: 15px;
+    width: 80%;
+}
+#view-link2 i{
+    color: #b25327;
+}
+#view-link3 span{
+    padding: 15px;
+    width: 100%;
+}
+
+.univ--find-by-links .view-link-wrap{
+    position: relative;
+}
+.univ--find-by-links .view-link-wrap #byInterestLinks{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    border: 1px solid rgb(82, 74, 74);
+    border-top: none;
+    top: 57px;
+    left: 4%;
+    width: 92%;
+    background-color: #fff;
+    text-align: left;
+    padding: 20px;
+}
+.univ--find-by-links .view-link-wrap #byInterestLinks p{
+    padding: 8px 0px;
+}
+.univ--find-by-links .view-link-wrap #byInterestLinks p a{
+    color: rgb(82, 74, 74);
+    font-weight: 700;
+    text-decoration: none;
+}
+.univ--find-by-links .view-link-wrap #byInterestLinks p a:hover{
+    color: rgb(26, 170, 115);
+}
+
+.univ--find-by-links .view-link-wrap #byDegreeLinks{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    border: 1px solid rgb(82, 74, 74);
+    border-top: none;
+    top: 57px;
+    left: 4.1%;
+    width: 91.8%;
+    background-color: #fff;
+    text-align: left;
+    padding: 20px;
+}
+.univ--find-by-links .view-link-wrap #byDegreeLinks p{
+    padding: 8px 0px;
+}
+.univ--find-by-links .view-link-wrap #byDegreeLinks p a{
+    color: rgb(82, 74, 74);
+    font-weight: 700;
+    text-decoration: none;
+}
+.univ--find-by-links .view-link-wrap #byDegreeLinks p a:hover{
+    color: rgb(26, 170, 115);
+}
+
+
+.univ--find-program .univ--video-image img{
+    position: relative;
+}
+.univ--find-program .univ--video-image .play-button i{
+    position: absolute;
+    z-index: 1;
+    font-size: 70px;
+    background-color: rgba(0, 0, 0, 0.527);
+    color: #ffffff7c;
+    border-radius: 50%;
+    top: 40%;
+    left: 44%;
+    font-weight: 100;
+}
+.univ--find-program .univ--video-image .play-button i:hover{
+    background-color: rgba(48, 43, 43, 0.514);
+    color: #fff;
+}
+
+
+.modal-content{
+    background: transparent !important;
+    border: none;
+}
+
+.univ--find-program .univ--driving-force-text{
+    text-align: left;
+}
+.univ--find-program .univ--driving-force-text h2{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-size: 37px;
+}
+.univ--find-program .univ--driving-force-text p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+}
+.univ--find-program .univ--driving-force-text p a{
+    color: rgb(26, 170, 115);
+    text-decoration: none;
+}
+.univ--find-program .univ--driving-force-text p a:hover{
+    color: rgb(22, 124, 85);
+}
+.univ--find-program .univ--driving-force-text button{
+    background: transparent;
+    border: 1px solid white;
+    color: #fff;
+    padding: 10px 40px;
+}
+.univ--find-program .univ--driving-force-text button:hover{
+    color: rgb(82, 74, 74);
+    background-color: #fff;
+}
+
+
+.news-heading{
+    padding: 0px 70px;
+}
+.news-heading h4{
+    text-align: center;
+    margin: 50px auto;
+    position: relative;
+}
+.news-heading h4:before{
+    content: "";
+    display: block;
+    width: 40%;
+    height: 2px;
+    background: rgba(128, 128, 128, 0.158);
+    left: 0;
+    top: 50%;
+    position: absolute;
+}
+.news-heading h4:after {
+    content: "";
+    background: rgba(128, 128, 128, 0.158);
+    display: block;
+    width: 40%;
+    height: 2px;
+    right: 0;
+    top: 50%;
+    position: absolute;
+}
+
+
+.univ--news-Links{
+    height: auto;
+    margin: 0px 70px 60px 70px;
+}
+.univ--news-Links .univ--newsLinks-line1 {
+    margin-bottom: 40px;
+}
+.univ--news-Links .univ--newsLinks-line1 a{
+    text-decoration: none;
+    color: rgb(61, 61, 61);
+    font-family: 'Times New Roman', Times, serif;
+}
+.univ--news-Links .univ--newsLinks-line1 a h5 {
+    font-family: sans-serif;
+    font-size: 18px;
+    padding-top: 10px;
+}
+.univ--news-Links .univ--newsLinks-line1 a p{
+    font-size: 18px;
+}
+
+
+.univ--information-session{
+    background-color: #314081;
+    height: auto;
+    text-align: center;
+    padding: 100px 0px 40px 0px;
+}
+.univ--information-session h4{
+    color: #fff;
+    position: relative;
+}
+.univ--information-session h4:before {
+    content: "";
+    background: #fff;
+    display: block;
+    width: 27%;
+    height: 2px;
+    left: 50px;
+    top: 50%;
+    position: absolute;
+}
+.univ--information-session h4:after {
+    content: "";
+    background: #fff;
+    display: block;
+    width: 27%;
+    height: 2px;
+    right: 50px;
+    top: 50%;
+    position: absolute;
+}
+.univ--information-session p{
+    color: #fff;
+    font-size: 19px;
+    padding: 25px 320px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.5px;
+}
+.univ--information-session a {
+    text-decoration: none;
+    display: incline-block;
+    background-color: #22cbe9;
+    color: #000;
+    padding: 20px 50px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA */
+@media (max-width: 576px){
+    #backgd-green{
+        margin-right: 0px;
+    }
+    #backgd-red{
+        margin-right: 0px;
+    }
+    .univ--find-program div{
+        margin-bottom: 30px;
+    }
+    .univ--find-program .univ--find-by-links{  
+        padding: 0px;
+    }
+    #view-link1 span{
+        width: 86%;
+    }
+    #view-link2 span{
+        width: 86%;
+    }
+    #view-link3 span{
+        width: 97%;
+    }
+
+    .univ--news-Links{
+        margin: 0px 20px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+    #view-link3 span{
+        width: 88%;
+    }
+
+    .univ--news-Links{
+        margin: 0px 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    #view-link3 span{
+        width: 86%;
+    }
+
+    .univ--news-Links{
+        margin: 0px 30px;
+    }
+}
+
+@media (max-width: 991px){
+    .univ--top-header1{
+        display: none;
+    }
+    .univ--top-header2{
+        height: 60px;
+        display: block;
+    }
+    .univ--logo-row{
+        display: none;
+    }
+    .univ--top-nav-links{
+        display: none;
+    }
+    .univ--homePage-image-and-text .univ--aboveImgText{
+        position: relative;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+    }
+    .univ--homePage-image-and-text .univ--aboveImgText h1{
+        font-size: 45px;
+    }
+    .univ--homePage-image-and-text .univ--aboveImgText .first-line {
+        text-align: center;
+    }
+    .univ--homePage-image-and-text .univ--aboveImgText .sec-line {
+        text-align: center;
+    }
+    .univ--find-program .find-program-search h1{
+        margin-bottom: 30px;
+    }
+    .univ--find-program div input[type="search"]{
+        width: 80%;
+    }
+    .univ--find-program .univ--driving-force-text h2{
+        margin-top: 20px;
+    }
+    .univ--find-program .univ--driving-force-text{
+        padding: 0px 20px;
+    }
+}
+@media (min-width: 992px){
+    .univ--top-header1{
+        display: block;
+    }
+    .univ--top-header2{
+        display: none;
+    }   
+}
+@media (min-width: 992px) and (max-width: 1180px){
+    .univ--homePage-image-and-text .univ--aboveImgText{
+        width: 650px;
+        top: 40px;  
+    }
+    .univ--homePage-image-and-text .univ--aboveImgText a{
+        width: 270px;
+    }
+}
+@media (min-width: 1180px) and (max-width: 1300px){
+    .univ--homePage-image-and-text .univ--aboveImgText{
+        width: 750px;
+        top: 50px;
+    }
+}

@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+form{
+    margin: auto;
+}
+.nurse-detail{
+    height: auto;
+    width: auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: #fff;
+    padding: 50px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+.nurse-detail .nurse-image{ 
+    width: 15%;
+    height: 100%;
+    float: left;
+    padding: 5px;
+}
+.nurse-detail .nurse-image img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.nurse-full-info{
+    width: 85%;
+    height: auto;
+    float: left;
+    padding: 0px 10px;
+}
+.nurse-full-info table th{
+    border-top: none;
+    color: blue;
+}
+.nurse-full-info table tr td{
+    border-top: none;
+    width: 250px;
+}
